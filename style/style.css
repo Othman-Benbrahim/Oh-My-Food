@@ -1,0 +1,420 @@
+
+body{margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+
+.logo-ohmyfood img { 
+
+    display: flex;
+margin: auto;
+    background-color: #fff;
+    padding: 15px 25px 10px;
+    height: 44px;
+width: 162px;
+left: 16px;
+
+
+    
+    }
+
+
+    .text-paris-belleville { display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+font-size: 16px;
+font-weight: 500;
+background: #EAEAEA;
+height: 50px;
+box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.15);
+
+
+    }
+
+    .fa-location-dot { padding-right: 17px;}
+
+
+
+
+
+    .reservez-le-menu { text-align: center;}
+
+    .decouvrez-des-restaurants{text-align: center; 
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        }
+
+
+        .bouton  {
+            display: flex;
+            justify-content: center;
+margin:auto;
+border-radius: 25px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+transform: matrix(1, 0, 0, -1, 0, 0);
+font-weight: 500;
+color: #fff;
+height: 50px;
+width: 218px;
+left: 0px;
+top: 50px;
+            }
+
+.bouton p {transform: matrix(1, 0, 0, -1, 0, 0)}
+
+.header-partie-2 { background: #F6F6F6;
+ margin-top: -20px;
+ padding-top: 25px;
+ height: 250px;
+
+}
+
+/** main **/
+
+
+
+
+
+
+
+.title { padding-top: 48px;
+padding-left: 20px;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+
+}
+
+
+.conteneur-box {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+    }
+
+
+
+
+.chiffre-1{ display: flex;
+    border-radius: 100%;
+    height: 24px;
+    width: 24px;
+    background: #9356DC;
+    color: white;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ left: -15px;
+
+    }
+
+
+    .box-1{display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24.92px;
+        background: #F7F7F7;
+        width: 322.49px;
+height: 72.38px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 20px; }
+
+
+        .box-2 {display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 24.92px;
+                background: #F7F7F7;
+                width: 322.49px;
+        height: 72.38px;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+                border-radius: 20px; 
+                
+        }
+    
+    
+    .box-3 { display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24.92px;
+        margin-bottom: 68px;
+                background: #F5EDFF;
+                width: 322.49px;
+        height: 72.38px;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+                border-radius: 20px; }
+
+
+        .fa-mobile-screen-button {position: relative;
+            right: 27px;
+        }
+
+        .fa-list {position: relative;
+            right: 27px;}
+
+
+        .fa-store {position: relative;
+            right: 27px;}
+
+.numero-1 {display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 24px;
+ height: 24px;
+border-radius: 100px;
+background: #9356DC;
+color: white;
+position: relative;
+right: 67px;
+}
+
+.numero-2 {display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 24px;
+ height: 24px;
+border-radius: 100px;
+background: #9356DC;
+color: white;
+position: relative;
+right: 67px;}
+
+
+.numero-3 {display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 24px;
+ height: 24px;
+border-radius: 100px;
+background: #9356DC;
+color: white;
+position: relative;
+right: 67px;}
+
+
+
+   
+
+        /*section restaurants*/
+
+
+
+.conteneur-box-2 {display: flex;
+flex-direction: column; 
+align-items: center;
+}
+
+
+ 
+ img  { 
+        
+        height: 231px;
+        width: 340.9117431640625px;
+        border-top-right-radius: 15px;
+        border-top-left-radius:15px ;
+
+        }    
+
+
+
+
+        .box-4 { display: flex;
+            height: 308px;
+            width: 340.9117431640625px;
+            border-radius: 15px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 15px;
+            }
+
+
+
+
+
+        .text-1 { 
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21px;
+            padding-top: 10px;
+                  padding-left: 12.81px;
+
+                  }
+
+        .text-2 {
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 20px;
+            padding-left: 12.81px;
+
+            }
+
+            .icon {display: flex;
+                justify-content: flex-end;
+                padding-right: 20px;
+                cursor: pointer;
+
+         }
+
+      .icon-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+margin-top: -46%;
+margin-left: 55%;
+position: absolute;
+z-index: 1;
+width: 80px;
+height: 29px;
+background: #99E2D0;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+border-radius: 2px;
+color:#008766;
+
+ }
+
+
+ .image-1 { z-index: 2;
+
+}
+
+.image-1 p { margin-left: auto; }
+ 
+
+ .icon:hover { background-image: linear-gradient( #9356DC , #FF79DA );
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+
+
+}
+
+/*footer*/
+
+.footer {padding: 22px 25px 35px;}
+
+footer { margin-top: 64px;
+
+    background-color: #353535;}
+
+
+.logo-ohmyfood-2 img{ 
+    
+    filter: invert(1);
+    height: 27px;
+width: 100px;
+
+     } 
+
+
+.fa-utensils {filter: invert(1);
+padding-right: 4px;}
+.fa-handshake-angle {filter: invert(1);
+}
+
+ a {color:#fff ;
+    text-decoration:none
+}
+
+.column-link {padding-top: 7px ;}
+
+   
+    /* media queries */
+
+    @media only screen and (min-width : 1024px) {
+
+
+/*header*/
+
+
+.logo-ohmyfood img {height: 54px;
+    width: 200px;
+
+     }
+
+br {display: none;}
+
+
+/*fonctionnement*/
+
+
+
+.title{ 
+    margin-block: auto;
+    margin-left: 21%; }
+
+
+
+
+.conteneur-box {
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:center;}
+
+
+
+.box-2{ margin-left: 36.51px;}
+
+
+.box-3 {margin-bottom: 0;
+margin-left: 36.51px;}
+        
+
+/*Restaurants*/
+
+.conteneur-box-2 {display: grid;
+    grid-template-columns: 28% 30%;
+    gap: 51px;
+justify-content: center;
+}
+
+
+.image-1 img { height: 187px;
+    width:  489.6px;
+    }
+
+.box-4 { height: 251px;
+    width: 490px;
+
+    }
+
+
+    span {text-align: left;}
+
+
+    /*footer*/
+
+
+    .footer { display: flex;
+    justify-content:flex-end ;
+}
+
+.column-link {padding-left: 20px;}
+
+
+ .logo-ohmyfood-2 {order: 6;
+padding-left: 71px;
+padding-right: 26.4px;}
+
+
+
+
+}
+
+
+
+  
