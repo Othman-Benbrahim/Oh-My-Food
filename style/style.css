@@ -150,10 +150,13 @@ top: 50px;
 /** main **/
 
 
+aside {color:black}
+
 
 
 i.icon-regular { margin-right: -24px;
-    margin-top: 12px;}
+    margin-top: 12px;
+color: black;}
 
 
 
@@ -324,6 +327,7 @@ align-items: center;
             line-height: 0px;
             padding-top: 10px;
                   padding-left: 12.81px;
+                  color: black;
 
                   }
 
@@ -332,12 +336,12 @@ align-items: center;
             font-weight: 300;
             line-height: 20px;
             padding-left: 12.81px;
+            color: black;
 
             }
 
             .icon {display: flex;
                 justify-content: flex-end;
-                cursor: pointer;
 
          }
 
