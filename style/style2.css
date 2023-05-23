@@ -64,7 +64,13 @@ z-index: 0;}
             line-height: 1;
             cursor: pointer;
             transition: opacity 0.8s ease-in 0.3s;
-          }
+          } 
+
+
+          
+
+
+
 
 
     .titre_carte {overflow: hidden;
@@ -213,27 +219,20 @@ z-index: 0;}
 
   .carte:not(:hover) .carte2 {
     transform: translateX(0);
-    transition: transform 0.8s ease-in;
+    transition: transform 0.3s ease-in;
 
   }
 
 
   .carte:hover .carte2 {
     transform: translateX(-60px);
-    transition: transform 0.8s ease-in;
+    transition: transform 0.3s ease-in;
   }
 
 
   .carte .carte2 {
     margin-right: -60px;
   }
-
-
-
-
-
-
-
 
 
 
@@ -328,7 +327,7 @@ padding-right: 4px;}
     /*medias queries*/
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1224px) {
 
 /*Menu */
 
@@ -371,10 +370,6 @@ padding-right: 120px;}
  .logo-ohmyfood-2 {order: 6;
 padding-left: 71px;
 padding-right: 26.4px;}
-
-
-
-
 
 
 
