@@ -182,6 +182,18 @@ i.icon-solid { background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79
 
 
 
+  i.icon-solid:active {
+    background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 1;
+    line-height: 1;
+    cursor: pointer;
+    transition: opacity 0.8s ease-in 0.3s;
+  }
+
+
 
 
 
@@ -328,6 +340,7 @@ align-items: center;
             padding-top: 10px;
                   padding-left: 12.81px;
                   color: black;
+                  margin-top: 4px;
 
                   }
 
@@ -337,11 +350,12 @@ align-items: center;
             line-height: 20px;
             padding-left: 12.81px;
             color: black;
-
+            margin-top: -4px;
             }
 
             .icon {display: flex;
                 justify-content: flex-end;
+                margin-top: -20px;
 
          }
 
@@ -410,7 +424,7 @@ padding-right: 4px;}
    
     /* media queries */
 
-    @media only screen and (min-width : 1024px) {
+    @media only screen and (min-width : 1224px) {
 
 
 /*header*/
