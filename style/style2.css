@@ -44,6 +44,13 @@ z-index: 0;}
     /*menu*/
 
 
+    .restaurants_cartes2 {padding-left: 13px;
+        padding-right: 13px; }
+
+    .restaurants_cartes {padding-left: 13px;
+        padding-right: 13px;}
+
+
     .icon-regular { margin-right: -28px;}
 
 
@@ -189,7 +196,7 @@ z-index: 0;}
         font-weight: 300;
         margin-bottom: 12px;
         font-size: 16px;
-
+margin-left: 13px;
     }
 
 
@@ -341,6 +348,14 @@ padding-right: 4px;}
     margin-top: 50px;
     justify-content: center;
     gap: 25px;}
+
+
+    .titre_section_restaurants  {
+        font-weight: 300;
+        margin-bottom: 12px;
+        font-size: 16px;
+        margin-left: 0px;
+    }
 
 
 /*Restaurants carte */
