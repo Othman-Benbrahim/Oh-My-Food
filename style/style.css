@@ -19,9 +19,12 @@ animation: disappear 2s 2s forwards;
 
 
 .loader::after { 
-position: absolute; 
-top: 50%; 
-left: 50%; 
+
+    margin : 0 auto;
+display: flex;
+flex-direction: column; 
+ justify-content: center;
+ align-items:center;
 content: "";
 height: 100px;
 width: 100px;
@@ -32,9 +35,12 @@ animation: load 1s infinite linear;
 
 }
 
-.loader img { position: absolute; 
-    top: 60%; 
-    left: 48%; 
+.loader img { 
+    margin : 0 auto;
+    display: flex;
+flex-direction: column; 
+ justify-content: center;
+ align-items:center;
 width: 150px; }
 
 
