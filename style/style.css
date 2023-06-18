@@ -419,7 +419,7 @@ padding-right: 4px;}
    
     /* media queries */
 
-    @media only screen and (min-width : 1224px) {
+    @media only screen and (min-width : 1024px) {
 
 
 /*header*/
@@ -434,6 +434,28 @@ br {display: none;}
 
 
 /*fonctionnement*/
+
+.fa-solid.fa-mobile-screen-button.fa-lg{
+color:#7E7E7E; }
+
+
+
+.fa-solid.fa-mobile-screen-button.fa-lg:hover {
+
+    cursor: pointer;
+    color: #9356DC; }
+
+
+.fa-solid.fa-list.fa-lg { color:#7E7E7E; }
+
+.fa-solid.fa-list.fa-lg:hover {cursor: pointer;
+    color: #9356DC;  }
+
+
+.fa-solid.fa-store { color:#7E7E7E; }
+
+.fa-solid.fa-store:hover { cursor: pointer;
+    color: #9356DC; }
 
 
 

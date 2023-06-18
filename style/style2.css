@@ -79,17 +79,22 @@ z-index: 0;}
         
 
 
-    .titre_carte {overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis; 
-        padding-right: 7rem;}
+    .titre_carte:hover { 
+        overflow: hidden;
+        white-space: nowrap; 
+        padding-right: 7rem;
+        text-overflow: ellipsis;}
 
 
 
-    .texte_carte {overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis; 
-        padding-right: 7rem;}
+
+
+    .texte_carte:hover { 
+
+        overflow: hidden;
+        white-space: nowrap; 
+        padding-right: 7rem;
+        text-overflow: ellipsis;}
 
 
 .animation_carte1 { animation: transition 1.5s ease-out 0.5s forwards;
@@ -335,7 +340,7 @@ padding-right: 4px;}
     /*medias queries*/
 
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 1024px) {
 
 /*Menu */
 
