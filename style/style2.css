@@ -27,6 +27,7 @@ left: 16px;
     top: 27px;
     right: 0;
     bottom: 0;
+    color: black;
   }
 
  .lapalettedugout-img img { width: 100%;
@@ -89,7 +90,7 @@ z-index: 0;}
 
 
 
-    .texte_carte:hover { 
+    .texte_carte { 
 
         overflow: hidden;
         white-space: nowrap; 
