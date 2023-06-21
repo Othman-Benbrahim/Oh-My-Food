@@ -3,6 +3,8 @@ body{margin: 0;
 
 }
 
+footer {font-family: 'Roboto', sans-serif;}
+
 
 /*header*/
 
@@ -77,10 +79,21 @@ z-index: 0;}
           } 
 
 
-        
+    
+    .restaurants_cartes2:hover .texte_carte {   overflow: hidden;
+        white-space: nowrap; 
+        padding-right: 7rem;
+        text-overflow: ellipsis;}
 
 
-    .titre_carte:hover { 
+
+        .restaurants_cartes2:hover .titre_carte {   overflow: hidden;
+            white-space: nowrap; 
+            padding-right: 7rem;
+            text-overflow: ellipsis;}
+
+
+    /*.titre_carte:hover { 
         overflow: hidden;
         white-space: nowrap; 
         padding-right: 7rem;
@@ -95,7 +108,7 @@ z-index: 0;}
         overflow: hidden;
         white-space: nowrap; 
         padding-right: 7rem;
-        text-overflow: ellipsis;}
+        text-overflow: ellipsis;}*/
 
 
 .animation_carte1 { animation: transition 1.5s ease-out 0.5s forwards;
